@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 # Agentic-Advertising-Automation-System
 
->>>>>>> fb1399b2a76acba079bb62ee40c290b82ced2d65
 ## I've created a comprehensive project using LangGraph, Python, and AWS. Here's what the system includes:
 
 # Core Features
@@ -47,32 +44,12 @@
 
 The system is designed to be production-ready with proper error handling, monitoring, and scalability features. You can deploy it completely on AWS and scale based on your needs.
 
-
 ## AWS Deployment Guide for AdOps System
 
 # Overview
 
 This guide will help you deploy the multi-agent AdOps automation system on AWS using LangGraph, Python, and various AWS services.
 
-<<<<<<< HEAD
-- Architecture
-
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   API Gateway   │────│   Lambda/ECS    │────│    Bedrock      │
-│                 │    │   (LangGraph)   │    │   (Claude AI)   │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-                                │
-                    ┌───────────┼───────────┐
-                    │           │           │
-            ┌───────▼──┐  ┌─────▼──┐  ┌─────▼──────┐
-            │ DynamoDB │  │   S3   │  │ CloudWatch │
-            │ (Alerts) │  │(Reports│  │ (Metrics)  │
-            └──────────┘  │& State)│  └────────────┘
-                          └────────┘
-
-
-=======
->>>>>>> fb1399b2a76acba079bb62ee40c290b82ced2d65
 # Prerequisites
 1. AWS Account with appropriate permissions
 2. Python 3.9+
@@ -364,7 +341,3 @@ aws logs get-log-events \
 - This deployment guide provides a comprehensive setup for running an AdOps automation system on AWS. The system leverages LangGraph for multi-agent orchestration, AWS Bedrock for AI capabilities, and various AWS services for scalability and reliability.
 
 - The system is designed to be production-ready with proper monitoring, logging, and security considerations.
-<<<<<<< HEAD
-
-=======
->>>>>>> fb1399b2a76acba079bb62ee40c290b82ced2d65
