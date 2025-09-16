@@ -1,0 +1,16 @@
+ipykernel
+boto3
+langgraph
+langchain
+pandas
+langchain_community
+langchain-aws
+langgraph-checkpoint-aws
+langgraph-checkpoint-sqlite
+langchain-core
+asyncio-mqtt
+pydantic
+python-dotenv
+uvicorn
+fastapi
+awscli

@@ -634,13 +634,13 @@ async def main():
         context={}
     )
     
-    print("\n📊 Running multi-agent AdOps workflow...")
+    print("\nRunning multi-agent AdOps workflow...")
     
     # Execute workflow
     config = {"configurable": {"thread_id": "adops_session_1"}}
     result = await workflow.ainvoke(initial_state, config=config)
     
-    print("\n✅ Workflow completed successfully!")
+    print("\nWorkflow completed successfully!")
     print(f"Processed {len(result['campaigns'])} campaigns")
     print(f"Generated {len(result.get('alerts', []))} alerts")
     print(f"Created performance reports")
