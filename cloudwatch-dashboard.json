@@ -1,0 +1,19 @@
+{
+  "widgets": [
+    {
+      "type": "metric",
+      "properties": {
+        "metrics": [
+          ["AdOps/Campaigns", "DailySpend"],
+          [".", "CTR"],
+          ["AWS/Lambda", "Duration", "FunctionName", "adops-automation"],
+          [".", "Errors", ".", "."]
+        ],
+        "period": 300,
+        "stat": "Average",
+        "region": "us-east-1",
+        "title": "AdOps Performance Metrics"
+      }
+    }
+  ]
+}
